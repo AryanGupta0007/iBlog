@@ -25,6 +25,7 @@
 
             <div class="login-form">
                 <form method="post">
+                    {% csrf_token %}
                     <label class="email-label label">
                         USERNAME <br>
                         <input type="email" placeholder="john@doe.com" name="email" class="login-form-input">
@@ -41,7 +42,7 @@
             <p>Welcome to iBlog <br>
                 Don't have an account?</p>
             <button class="register-btn">
-                Signup
+                <a href="{% url 'signup_user'%}" style="color: black;">Signup</a>
             </button>
         </div>
 

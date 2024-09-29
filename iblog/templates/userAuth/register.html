@@ -22,14 +22,15 @@
             </div>
             <div class="reg-form">
                 <form action="" method="post">
+                    {% csrf_token %}
                     <label>
-                        <input class="form-input" type="text" placeholder="Your Name">
+                        <input class="form-input" type="text" name="full-name" placeholder="Your Name">
                     </label>
                     <label>
-                        <input class="form-input distance-top" type="email" placeholder="Email Address">
+                        <input class="form-input distance-top" type="email" name="email" placeholder="Email Address">
                     </label>
                     <label>
-                        <input class="form-input distance-top" type="password" placeholder="Password">
+                        <input class="form-input distance-top" type="password" name="password" placeholder="Password">
                     </label>
                     <button type="submit" class="btn halant-regular distance-top form-button">Sign up</button>
                 </form>
@@ -47,6 +48,9 @@
                 </div>
                 <div class="google-logo o-auth-logo">
                     <img src="{% static 'media/google-logo.png' %}" class="google-logo-img o-auth-logo-img" alt="google-logo">
+                </div>
+                <div class="already-have-a-account roboto-regular">
+                    Already have a account? <a href="{% url 'login_user' %}">Sign in</a>
                 </div>
             </div>
         </section>

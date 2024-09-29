@@ -81,6 +81,13 @@ section{
     border: 1px solid black;
     margin-top: 2vh;
 }
+.already-have-a-account a{
+    color: blue;
+}
+.already-have-a-account {
+    position: absolute;
+    bottom: 0;
+}
 
 .fb-logo{
     margin-left: 13vw;
