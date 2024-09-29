@@ -1,0 +1,50 @@
+.blog-title{
+    margin-top: 5vh;
+}
+.blog-author-details {
+}
+.blog-details ul{
+    margin-top: 7px;
+    margin-left: 4px;
+    width: 15vw;
+    justify-content: space-around;
+}
+.blog-details li{
+    list-style-type: none;
+}
+.blog-image{
+    width: 35vw;
+    margin: auto;
+    /*height: 50vh;*/
+}
+.blog-image img{
+    margin-top: 7vh;
+    width: 100%;
+    height: auto;
+    /*object-fit: cover;*/
+}
+.caption{
+    margin-top: 1.5vh;
+}
+.blog{
+    margin-top: 2.5vh;
+}
+.article-content .title{
+    color: black;
+}
+.featured-articles{
+    background-color: red;
+    height: 50vh;
+}
+.article{
+    height: 47vh;
+    width: 25vw;
+
+    background-color: blue;
+}
+.feat-article1{
+    background-color: blue;
+}
+.feat-article2{
+    background-color: #000;
+}

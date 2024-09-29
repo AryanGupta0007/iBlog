@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Dots:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Halant:wght@300;400;500;600;700&family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --main-bg-color: brown;
+    --font-1: "Ubuntu", sans-serif;
+    --font-2: "Roboto", sans-serif;
+    --font-3: "Edu AU VIC WA NT Dots", cursive;
+}
+.halant-regular {
+  font-family: "Halant", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.halant-medium {
+  font-family: "Halant", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.playwrite-de-grund{
+  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+.ubuntu-regular {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+a{
+    text-decoration: none;
+}
+.ubuntu-medium {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ubuntu-bold {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.edu-au-vic-wa-nt-dots {
+  font-family: "Edu AU VIC WA NT Dots", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.max-width-1{
+    max-width: 50vw;
+}
+.max-width-2{
+    max-width: 65vw;
+}
+.m-auto{
+    margin: auto;
+}
+.btn{
+    cursor: pointer;
+    height: 4vh;
+    width: 10vh;
+}
+.bg-red{
+    background-color: red;
+}
+
+.btn:hover{
+    font-size: 15px;
+}
+footer{
+    clear: both;
+    position: fixed;
+    bottom: 0;
+}
+
+.bigger-font{
+    font-size: 25px;
+}
+.text-center{
+    text-align: center;
+}
+.flex{
+    display: flex;
+}

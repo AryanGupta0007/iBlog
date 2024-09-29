@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %} Hello {% endblock %}</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/utils.css' %}">
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    {% block head %} {% endblock %}
+</head>
+<body>
+    <header>
+        <nav class="navigation max-width-2 m-auto ubuntu-regular">
+            <div class="nav-left">
+                <div class="logo">
+                    <h1>iBlog</h1>
+                </div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <form method="get" action="search.html">
+                    <label>
+                        <input class="form-control roboto-regular" name="query" type="text" label="article-search" placeholder="Article Search">
+                    </label>
+                    <button type="submit" class="btn roboto-regular">Search</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <main class="max-width-1 m-auto roboto-regular">
+        {% block content %}
+        {% endblock %}
+    </main>
+    <div class="forHeight"></div>
+    <footer class="footer footer-home m-auto max-width-2 ubuntu-regular">
+        <p>copyright &copy; iblog.com</p>
+    </footer>
+</body>
+</html>

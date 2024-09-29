@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+section{
+    width: 50vw;
+    height: 100vh;
+}
+.section-right{
+    background-color: black;
+}
+.logo{
+    margin-left: 4vw;
+    margin-top: 7vh;
+    font-size: 1.5rem;
+}
+.greet p{
+    margin-top: 7vh;
+    margin-left: 9vw;
+    font-size: 20px;
+}
+.greet h1{
+    font-size: 2.5rem;
+    margin-left: 8vw;
+}
+.section-left form{
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+}
+.form-input{
+    width: 20vw;
+    height: 7vh;
+    padding-left: 10px;
+    margin-left: 8vw;
+}
+.distance-top{
+    margin-top: 4vh;
+}
+.form-button{
+    background-color: black;
+    color: white;
+    margin-left: 8vw;
+    width: 21vw;
+    height: 7vh;
+    font-size: 15px;
+}
+.o-auth-1{
+    display: flex;
+    color: grey;
+}
+.o-auth-2{
+    display: flex;
+
+}
+.line{
+    width: 10vw;
+    height: 1px;
+    background-color: grey;
+}
+.line-1{
+    margin-left: 5vw;
+}
+.line-2{
+    margin-left: 1vw;
+}
+.o-auth-1 .msg{
+    margin-left: 1vw;
+    margin-top: 2.5vh;
+}
+.o-auth-logo{
+    width: 4vw;
+    height: 6vh;
+    border-radius: 100%;
+    background-color: white;
+    border: 1px solid black;
+    margin-top: 2vh;
+}
+
+.fb-logo{
+    margin-left: 13vw;
+}
+.google-logo{
+    margin-left: 3vw;
+}
+.o-auth-logo-img{
+    width: 3vw;
+    height: 4vh;
+    margin-left: 0.5vw;
+    margin-top: 1vh;
+}

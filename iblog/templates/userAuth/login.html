@@ -1,0 +1,51 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <link href="{% static 'css/utils.css' %}" rel="stylesheet">
+    <link href="{% static 'css/login.css' %}" rel="stylesheet">
+</head>
+<body>
+    <section class="login-section">
+        <div class="login left-div">
+            <div class="div-left-top">
+                <div class="h3">
+                    <h3>Sign In</h3>
+                </div>
+                <div class="logos">
+                    <a href="https://www.google.com/"><img class="google-logo"  src="{% static 'media/google-logo.png' %}" alt="google-logo"></a>
+                    <a href="https://www.facebook.com/"><img class="fb-logo" src="{% static 'media/fb-logo.jpg' %}" alt="fb-logo"></a>
+                </div>
+            </div>
+
+            <div class="login-form">
+                <form method="post">
+                    <label class="email-label label">
+                        USERNAME <br>
+                        <input type="email" placeholder="john@doe.com" name="email" class="login-form-input">
+                    </label>
+                    <label class="password-label label">
+                        PASSWORD <br>
+                        <input type="password" placeholder="**********" name="password" class="login-form-input">
+                    </label>
+                    <button class="btn login-btn" type="submit">Login</button>
+                </form>
+            </div>
+        </div>
+        <div class="card right-div">
+            <p>Welcome to iBlog <br>
+                Don't have an account?</p>
+            <button class="register-btn">
+                Signup
+            </button>
+        </div>
+
+
+    </section>
+</body>
+</html>

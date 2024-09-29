@@ -1,0 +1,101 @@
+body{
+        background-color: #f8f9fd;
+    }
+.left-div, .right-div{
+    /*background-color: blue;*/
+    width: 30vw;
+    height: 60vh;
+}
+.left-div{
+    background-color: white
+}
+.right-div{
+    color: white;
+    background-color: black;
+}
+
+.div-left-top{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 9vh;
+}
+.h3{
+    font-size: 25px;
+    font-family: gt-super, Georgia, Cambria, "Times New Roman", Times, serif;
+    margin-left: 2vw;
+}
+.logos{
+    margin-right: 1.5vw;
+}
+.label{
+    margin-top: 2vh;
+}
+.fb-logo{
+    position: relative;
+    bottom: 1px;
+}
+.login-section{
+    display: flex;
+    height: 50vh;
+    margin-top: 10vh;
+}
+.login-form form{
+    margin-top: 2vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+label{
+    font-size: 12px;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logos img{
+    width: 2vw;
+    object-fit: cover;
+}
+.right-div p{
+    font-size: 25px;
+    margin-top: 17.5vh;
+    margin-left: 6vw;
+}
+.register-btn{
+    font-size: 18px;
+    margin-top: 3vh;
+    margin-left: 7vw;
+}
+.login-form input{
+    margin-top: 2vh;
+    height: 6vh;
+    width: 15vw;
+    padding-left: 40px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 200px;
+}
+.login-btn{
+    height: 7vh;
+    width: 10vw;
+    margin-top: 5vh;
+    border: 2px solid black;
+    border-radius: 100px;
+    background-color: black;
+    color: white;
+}
+.register-btn{
+    height: 7vh;
+    width: 10vw;
+    border: 2px solid black;
+    border-radius: 100px;
+    background-color: white;
+    color: black;
+}
+.login-section{
+    margin-left: 17vw;
+    margin-top: 20vh;
+}

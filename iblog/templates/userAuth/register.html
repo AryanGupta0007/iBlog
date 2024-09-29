@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Signup</title>
+    <link rel="stylesheet" href="{% static 'css/utils.css' %}">
+    <link rel="stylesheet" href="{% static 'css/register.css' %}">
+</head>
+<body>
+    <main>
+        <section class="section-left">
+            <div class="logo roboto-bold">
+                <h1>iBlog</h1>
+            </div>
+            <div class="greet">
+                <p class="roboto-light">Start your journey</p>
+                <h1 class="halant-medium">Sign Up to iBlog</h1>
+            </div>
+            <div class="reg-form">
+                <form action="" method="post">
+                    <label>
+                        <input class="form-input" type="text" placeholder="Your Name">
+                    </label>
+                    <label>
+                        <input class="form-input distance-top" type="email" placeholder="Email Address">
+                    </label>
+                    <label>
+                        <input class="form-input distance-top" type="password" placeholder="Password">
+                    </label>
+                    <button type="submit" class="btn halant-regular distance-top form-button">Sign up</button>
+                </form>
+            </div>
+            <div class="o-auth-1">
+                <div class="line line-1 distance-top"></div>
+                <div class="msg distance-top halant-regular">
+                    or sign up with
+                </div>
+                <div class="line line-2 distance-top"></div>
+            </div>
+            <div class="o-auth-2">
+                <div class="fb-logo o-auth-logo">
+                    <img src="{% static 'media/fb-logo.jpg' %}" class="fb-logo-img o-auth-logo-img" alt="fb-logo">
+                </div>
+                <div class="google-logo o-auth-logo">
+                    <img src="{% static 'media/google-logo.png' %}" class="google-logo-img o-auth-logo-img" alt="google-logo">
+                </div>
+            </div>
+        </section>
+        <section class="section-right"></section>
+    </main>
+</body>
+</html>
